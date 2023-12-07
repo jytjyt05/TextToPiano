@@ -5,7 +5,7 @@ import numpy as np
 
 df = pd.read_csv('data/maestro-v3.0.0.csv')
 
-# 定义提取调性的函数
+# Extract tonality
 def extract_tonic(title):
     # match = re.search(r'(?i)in ([A-G](?:-flat|-sharp)? Major|[A-G](?:-flat|-sharp)? Minor)', title)
     match = re.search(r'.*([A-G](?:\sflat|\ssharp|\sFlat|\sSharp)?\s(Major|Minor))', title)
