@@ -1,5 +1,6 @@
 # Text-To-Piano
 - Dataset related utility functions can be found at **data_util** folder
+- Metrics related functions can be found at **metrics** folder
 
 - The utility functions for audio-conversion-to-spectrogram and spectrogram-conversion-to-audio can be found at **Util.ipynb**
 
